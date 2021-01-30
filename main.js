@@ -1,19 +1,10 @@
-//var, let, const
-//var is globally scoped and you dont wanna use it for the most parts
-//let and const have a block-level scope
-//with let u can reassign values
+//string, numbers, boolean, null, undefined
 
+const name = 'John';
+const age = 30;
+const isCool = true;
+const x = null;
+const y = undefined;
+let z;
 
-let age = 30;
-age = 31;
-console.log(age);
-
-/*const a = 30;
-a = 31;
-console.log(a);*/
-
-//just use const if you're not sure you'll reassign it
-
-let score;
-score = 10;
-console.log(score);
+console.log(typeof name);
