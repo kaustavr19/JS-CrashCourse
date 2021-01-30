@@ -8,3 +8,8 @@ const y = undefined;
 let z;
 
 console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isCool);
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);
